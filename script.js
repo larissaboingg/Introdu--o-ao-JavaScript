@@ -59,3 +59,10 @@ let carro = {
 };
 carro.crr()
 
+//atividade 7
+function mensagemPersonalizada() {
+    let nome = prompt("Escreva seu nome:");
+    let mensagem = "Olá";
+    console.log (mensagem + " "+ nome);
+}
+mensagemPersonalizada()
