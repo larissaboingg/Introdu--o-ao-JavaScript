@@ -18,7 +18,6 @@ function calculo (numero1, numero2) {
     console.log ("Divisão:"+(numero1 / numero2))
 
 }
-
 calculo (10,10)
 
 //atividade 3
@@ -30,8 +29,11 @@ while (count >= 1) {
 
 
 //atividade 4
-function inverterPalavra (texto) {
-    console.log (texto.split('').reverse().join(''))
+function inverterTexto (texto) {
+    return texto.split("").reverse().join("");
 }
+inverterTexto(JavaScript)
 
-inverterPalavra(JavaScript)
+
+//atividade 5
+function contarCaracteres ()
