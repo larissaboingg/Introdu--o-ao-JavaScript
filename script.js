@@ -29,11 +29,21 @@ while (count >= 1) {
 
 
 //atividade 4
-function inverterTexto (texto) {
-    return texto.split("").reverse().join("");
-}
-inverterTexto(JavaScript)
+let texto = prompt("Digite uma palavra: ");
+
+function inverterTexto(texto) {
+    console.log(texto.split("").reverse().join(""));
+} 
+inverterTexto(texto);
 
 
 //atividade 5
-function contarCaracteres ()
+
+function contarCaracteres(palavra) {
+    console.log (palavra.split(""));
+    for (let i=0; i<palavra.lenght ; i++){
+
+    };
+}
+let palavra = prompt("Digite uma palavra: ");
+contarCaracteres(palavra)
