@@ -47,3 +47,15 @@ function contarCaracteres(palavra) {
 }
 let palavra = prompt("Digite uma palavra: ");
 contarCaracteres(palavra)
+
+//atividade 6
+let carro = {
+    marca : prompt("Digite a marca do carro:"),
+    modelo : prompt("Digite o modelo do carro:"),
+    ano : prompt("Digite o ano do carro:"),
+    crr: function() {
+       console.log(this.modelo);
+}
+};
+carro.crr()
+
