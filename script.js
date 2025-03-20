@@ -66,3 +66,46 @@ function mensagemPersonalizada() {
     console.log (mensagem + " "+ nome);
 }
 mensagemPersonalizada()
+
+//atividade 8 
+function media () {
+    let n1 = prompt("Digite sua primeira nota:")*1;
+    let n2 = prompt("Digite sua segunda nota:")*1;
+    let n3 = prompt("Digite sua terceira nota:")*1;
+    console.log ((n1 + n2 + n3)/3.0)
+}
+media()
+
+//atividade 9
+let m3 =[];
+let nm3 = [];
+let a = 0;
+let b = 0;
+
+for (let i = 1; i < 21; i++){
+    if(i%3 == 0){
+        m3[a] = i;  
+        a++;
+    } else {
+        nm3[b] = i;
+        b++;
+    }   
+}
+
+function tabela(m3,nm3){
+    console.log ("Multiplos de 3:" + m3);
+    console.log ("Não multiplos de 3:" + nm3);
+}
+
+tabela()
+
+//atividade 10
+let palindromo = prompt("Digite uma palavra")
+function verificarPalindromo(palindromo){
+    if (palindromo === palindromo.split("").reverse().join("")){
+        console.log("true");
+    } else { 
+        console.log("false");
+    }
+}
+verificarPalindromo(palindromo)
